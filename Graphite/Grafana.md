@@ -32,7 +32,7 @@ vim test.sh
 ```
 ![Alt text](<Screenshot from 2023-09-21 21-25-30.png>)
 
- **Vim:** It is an editor to create or edit a text file.
+ **vim:** It is an editor to create or edit a text file.
 
  **test.sh:** It is the name of script file.
 
