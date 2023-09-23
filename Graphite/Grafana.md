@@ -51,6 +51,7 @@ Here I have created a pod with the name of **promgrafna** and two containers wit
 **--publish:** It specifies several ports to be published, making services running in containers accessible on those ports. 
 
 **3002:3000 -** This allows you to access the service running in the container on port 3000 through your host system on port 3002 for grafana.
+
  **8082:80** This port for graphite.
 
 **2003-2004:2003-2004 -** This is typically used for the Carbon-cache service in Graphite, which handles incoming metric data.
@@ -84,11 +85,11 @@ This command is used to see all containers on your system, both running and stop
 
 ##### 6. Go to the web interface.
 
-type **localhost:3002** for grafana's dashboard and  **localhost:8082** for graphite dashboard.
+Type **localhost:3002** for grafana's dashboard and  **localhost:8082** for graphite dashboard.
 
 Then you will get grafana's dashboard and there you can put username and password.
 
-**admin** is the default username and password and after that login grafana dashboard will come.
+ The default username and password is **admin** and after that login grafana dashboard will come.
 
 
 
