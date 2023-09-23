@@ -80,6 +80,8 @@ podman ps -a
 ```
 ![Alt text](<Screenshot from 2023-09-22 12-18-00.png>)
 
+This command is used to see all containers on your system, both running and stopped.
+
 ##### 6. Go to the web interface.
 
 type **localhost:3002** for grafana's dashboard and  **localhost:8082** for graphite dashboard.
@@ -147,7 +149,7 @@ Here you will get interface like this:
 
 Choose data source and mertices which you want to monitor.
 
-![Alt text](....png)
+![Alt text](metric.png)
 
 
 Here you have to select metrices like how I selected in given image and click on save option.
